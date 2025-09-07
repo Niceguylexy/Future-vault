@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- ========== Basic / SEO ========== -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Future Vault — Secure Wealth & Asset Storage | Premium Protection Services</title>
+  <meta name="description"
+    content="Future Vault provides impenetrable protection and secure delivery for funds and valuables. Private vaulting, biometric access, insured transport, and enterprise-grade confidentiality." />
+  <meta name="keywords"
+    content="secure vault, asset storage, wealth protection, secure delivery, confidential storage, biometric vaults" />
+  <meta name="author" content="Future Vault" />
+  <link rel="canonical" href="https://futurevault.com/" />
+
+  <!-- Robots -->
+  <meta name="robots" content="index, follow" />
+
+  <!-- ========== Social (OpenGraph + Twitter) ========== -->
+  <meta property="og:title" content="Future Vault — Secure Wealth & Asset Storage" />
+  <meta property="og:description"
+    content="Impenetrable protection and reliable delivery for your funds and valuables." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://futurevault.com/" />
+  <meta property="og:image" content="https://futurevault.com/assets/og/future-vault-og.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@FutureVault" />
+
+  <!-- ========== Structured Data (JSON-LD) ========== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://futurevault.com/#org",
+        "name": "Future Vault",
+        "url": "https://futurevault.com/",
+        "logo": "https://futurevault.com/logo.png",
+        "contactPoint": [{
+          "@type": "ContactPoint",
+          "telephone": "+1-800-VAULT-99",
+          "contactType": "customer service",
+          "areaServed": "US"
+        }]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem","position":1,"name":"Home","item":"https://futurevault.com/"}
+        ]
+      },
+      {
+        "@type": "Product",
+        "name": "Secure Vault & Delivery Services",
+        "description": "Private vault storage, biometric protection, insured logistics and confidential handling for high-net-worth individuals and enterprises.",
+        "brand": {"@type":"Brand","name":"Future Vault"}
+      }
+    ]
+  }
+  </script>
+
+  <!-- ========== Fonts & Icons (preconnect + load) ========== -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- ========== Stylesheet ========== -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- ========== Mobile Theme Color ========== -->
+  <meta name="theme-color" content="#1a365d" />
+</head>
+
+<body>
+  <!-- ========== Header / Nav ========== -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Main Navigation">
+      <a class="brand" href="/" aria-label="Future Vault Homepage">
+        <img src="logo.png" alt="Future Vault logo" class="brand__logo" width="160"
+          height="36">
+      </a>
+
+      <button id="menu-toggle" class="nav__toggle" aria-expanded="false" aria-controls="main-nav">
+        <span class="sr-only">Open menu</span>
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <ul id="main-nav" class="nav__list" role="menubar">
+        <li role="none"><a role="menuitem" class="nav__link" href="#home">Home</a></li>
+        <li role="none"><a role="menuitem" class="nav__link" href="#solutions">Solutions</a></li>
+        <li role="none"><a role="menuitem" class="nav__link" href="#why">Why Us</a></li>
+        <li role="none"><a role="menuitem" class="nav__link" href="#faq">FAQ</a></li>
+        <li role="none"><a role="menuitem" class="nav__link nav__cta" href="#contact">Request Consultation</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ========== HERO ==========
+       NOTE: Replace the placeholder poster/video/image with your high-res assets.
+  -->
+  <main id="maincontent">
+    <section id="home" class="hero">
+      <!-- Optional: background video (commented out) -->
+      <!--
+      <video class="hero__video" autoplay muted loop playsinline preload="auto">
+        <source src="assets/media/vault-loop.webm" type="video/webm">
+        <source src="assets/media/vault-loop.mp4" type="video/mp4">
+      </video>
+      -->
+
+      <div class="hero__overlay" aria-hidden="true"></div>
+
+      <div class="hero__content container">
+        <h1 class="hero__title">Secure Wealth & Asset Storage — Future Vault</h1>
+        <p class="hero__subtitle">
+          Impenetrable protection and reliable, insured delivery for funds and valuables — private vaulting with
+          biometric security and confidential logistics.
+        </p>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#contact">Request a Consultation</a>
+          <a class="btn btn--ghost" href="#solutions">Explore Solutions</a>
+        </div>
+
+        <ul class="trust-bar" aria-hidden="true">
+          <li><strong>Insured Storage</strong> up to policy limits</li>
+          <li><strong>24/7 Monitoring</strong> & biometric access</li>
+          <li><strong>Discrete Transport</strong> & vetted escorts</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========== SOLUTIONS ==========
+         Each card is concise and keyword-rich for SEO.
+    -->
+    <section id="solutions" class="section section--light">
+      <div class="container">
+        <h2 class="section__title">Comprehensive Wealth Protection Solutions</h2>
+        <p class="section__lead">Tailored services to protect high-value assets with enterprise-grade security and
+          private delivery options.</p>
+
+        <div class="grid grid--3 solutions-grid">
+          <article class="card" aria-labelledby="svc-vault">
+            <div class="card__icon"><i class="fas fa-fingerprint"></i></div>
+            <h3 id="svc-vault">Secure Vault Services</h3>
+            <p>
+              Our state-of-the-art vaults combine <strong>biometric access</strong>, <strong>multi-layer
+                authentication</strong>, reinforced anti-intrusion systems and environmental controls — ideal for
+              documents, heirlooms, and financial instruments.
+            </p>
+          </article>
+
+          <article class="card" aria-labelledby="svc-delivery">
+            <div class="card__icon"><i class="fas fa-shipping-fast"></i></div>
+            <h3 id="svc-delivery">Secure Delivery</h3>
+            <p>
+              Discreet, insured logistics with professional escorts and tamper-evident packaging. We coordinate pickup,
+              transport and verified handover to ensure assets arrive securely and intact.
+            </p>
+          </article>
+
+          <article class="card" aria-labelledby="svc-custom">
+            <div class="card__icon"><i class="fas fa-user-shield"></i></div>
+            <h3 id="svc-custom">Private Custody & Consulting</h3>
+            <p>
+              Bespoke custody plans for individuals and enterprises, compliance guidance, and SLA-backed service levels.
+              Flexible vault sizing and contractual confidentiality options.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== WHY US / TRUST ==========
+         Focus on benefits & differentiators — keyword-rich bullets help SEO.
+    -->
+    <section id="why" class="section section--accent">
+      <div class="container">
+        <h2 class="section__title light">Uncompromising Security & Professionalism</h2>
+        <div class="grid grid--2 features-list">
+          <ul class="feature-bullets">
+            <li><i class="fas fa-shield-alt"></i> <strong>Maximum security</strong>— zero compromise</li>
+            <li><i class="fas fa-user-secret"></i> <strong>Strict confidentiality</strong>& background-checked staff
+            </li>
+            <li><i class="fas fa-box-open"></i> <strong>Flexible vaults</strong>for individuals and businesses</li>
+            <li><i class="fas fa-check-circle"></i> SLA-backed response & 24/7 monitoring</li>
+          </ul>
+
+          <div class="proof">
+            <h3 class="proof__title">Why clients trust Future Vault</h3>
+            <ol class="proof__list">
+              <li>Industry-grade physical and cyber protections with regular audits.</li>
+              <li>Insured transport and verified chain-of-custody for every transfer.</li>
+              <li>Discrete, professional service model — privacy-first.</li>
+            </ol>
+
+            <!-- Placeholder testimonial — replace with real quotes for trust -->
+            <blockquote class="testimonial">
+              <p>"Future Vault delivered exactly as promised. The process was discrete, secure and professional." —
+                <em>Private Client</em></p>
+            </blockquote>
+
+            <div class="kpi-row" aria-hidden="true">
+              <div><strong>99.99%</strong><span> Asset integrity</span></div>
+              <div><strong>24/7</strong><span> Monitoring</span></div>
+              <div><strong>120+</strong><span> Enterprise clients</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FAQ (SEO + helpful content) ==========
+         Consider adding FAQ schema (below) after finalizing actual questions.
+    -->
+    <section id="faq" class="section section--light">
+      <div class="container">
+        <h2 class="section__title">Frequently Asked Questions</h2>
+        <div class="qa">
+          <details>
+            <summary>Are assets insured while in your custody?</summary>
+            <p>Yes — assets are insured subject to policy terms. We provide coverage options during intake; contact
+              sales to discuss limits and endorsements.</p>
+          </details>
+
+          <details>
+            <summary>How does pickup and delivery work?</summary>
+            <p>We use discrete, vetted couriers and tamper-evident packaging with verified chain-of-custody. All
+              transfers are documented and signed at handover.</p>
+          </details>
+
+          <details>
+            <summary>Can businesses customize vault space and access policies?</summary>
+            <p>Yes — we offer bespoke custody plans, role-based access, and enterprise SLAs. Ask about hybrid private
+              vaulting for corporate needs.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT / LEAD FORM ==========
+         Form posts to /api/lead (example). Replace with your backend endpoint (Nodemailer, SendGrid, CRM).
+         Includes a hidden honeypot for spam prevention and client-side validation.
+    -->
+    <section id="contact" class="section section--contact">
+      <div class="container">
+        <h2 class="section__title">Ready for Unmatched Security?</h2>
+        <p class="section__lead">Schedule a secure consultation — our team will handle your request with absolute
+          confidentiality.</p>
+
+        <div class="contact-wrap">
+          <form id="lead-form" class="form" novalidate>
+            <!-- Honeypot: bots will fill this; humans won't -->
+            <label class="sr-only" for="company">Company</label>
+            <input id="company" name="company" type="text" class="honeypot" autocomplete="off" tabindex="-1" />
+
+            <div class="form-row">
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text" required />
+            </div>
+
+            <div class="form-row">
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" required />
+            </div>
+
+            <div class="form-row">
+              <label for="phone">Phone number</label>
+              <input id="phone" name="phone" type="tel" inputmode="tel" required />
+            </div>
+
+            <div class="form-row">
+              <label for="message">Message / requirements</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell us about your security needs..."
+                required></textarea>
+            </div>
+
+            <p class="privacy-note">We treat your data with strict confidentiality. By submitting you agree to our <a
+                href="/privacy">Privacy Policy</a>.</p>
+
+            <button type="submit" class="btn btn--primary btn--full" id="submit-btn">Schedule a Secure
+              Consultation</button>
+            <div id="form-status" role="status" aria-live="polite"></div>
+          </form>
+
+          <!-- Right column: contact details & social proof -->
+          <aside class="contact-info" aria-label="Contact information">
+            <h3>Contact</h3>
+            <p>Email: <a href="mailto:info@futurevault.com">info@futurevault.com</a></p>
+            <p>Phone: <a href="tel:+18004285899">+1-800-VAULT-99</a></p>
+            <p>Address: 123 Security Plaza, Financial District, New York, NY</p>
+
+            <p class="small">Need enterprise support? <a
+                href="mailto:enterprise@futurevault.com">enterprise@futurevault.com</a></p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ==========
+         Keep legal links and minimal duplication of contact info for SEO/usability.
+    -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <img src="logo.png" alt="Future Vault" width="140" height="32">
+          <p class="muted">Licensed & insured secure storage provider</p>
+        </div>
+
+        <nav aria-label="Footer Navigation">
+          <ul class="footer-links">
+            <li><a href="/terms">Terms of Service</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>
+            <li><a href="/security">Security Standards</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <p class="muted">&copy; <span id="year"></span> Future Vault. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- ========== JSON-LD FAQ (Update with real Qs before publishing) ========== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Are assets insured while in your custody?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes — assets are insured subject to policy terms. We provide coverage options during intake; contact sales to discuss limits and endorsements."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does pickup and delivery work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We use discrete, vetted couriers and tamper-evident packaging with verified chain-of-custody."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- ========== Scripts (deferred) ========== -->
+  <script defer src="script.js"></script>
+</body>
+
+</html>
